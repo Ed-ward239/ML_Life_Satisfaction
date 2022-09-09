@@ -1,10 +1,10 @@
 # ML_Life_Satisfaction
 
 ML Algorithms:
-1. Find Linear Regression RSME &amp; k-nearest-neighbors (k=3)
-2. Add new country into the dataframe above and find new Linear Regressor &amp; k-nearest-neighbors (k=3) to train and test the life satisfactory of each country._
+1. Find the mean RMSE &amp; k-nearest-neighbors regressor(k=3) for the omitted countries with a linear regressor 
+2. Add new dataset "country: Faketopia, GDP: 60000, life satisfaction: 0" into the dataframe below and find the new mean RMSE &amp; k-nearest-neighbors regressor(k=3) for the omitted countries with a linear regressor.
 
-Use following CSV Data to train the ML:<br />
+Use following CSV Dataset to train the ML:<br />
 country,gdp_per_capita,life_satisfaction<br />
 Brazil,8669.998,6.4<br /> 
 Mexico,9009.28,6.5<br />
